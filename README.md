@@ -12,9 +12,6 @@ This repository is for the the practical assignments for the Applied Statistics 
 
 My work is presented in a [Jupyter Notebook](https://domino.ai/data-science-dictionary/jupyter-notebook) and focuses on analysing statistical problems using [Python](https://www.python.org/doc/essays/blurb/), [NumPy](https://numpy.org/). 
 
-To open my jupyter notebook click [here](https://github.com/mondbr/applied_statistics/blob/main/problems.ipynb)
-
-
 Goals
 ---
 
@@ -23,23 +20,6 @@ The purpose of this module is to demonstrate my ability to:
 * Source documentation to **programmatically perform a statistical test**.
 * **Select an appropriate statistical test** to investigate a claim.
 * Perform a **statistical test** on a data set.
-
-
-
-Assessment Problems
----
-*Problem 1 - Extending the Lady Tasting Tea*
-
-> This problem uses simulation to explore hypothesis testing through Fisher’s famous Lady Tasting Tea experiment. By repeatedly shuffling labels and calculating test statistics, we estimate how often results as extreme as the observed outcome occur by chance. This demonstrates the logic behind permutation tests and the interpretation of p-values
-
-*Problem 2 - Normal Distribution*
-
-> This problem investigates the sampling distribution of the standard deviation by drawing repeated samples from a standard normal distribution. We compare the population SD `(ddof=0)` and sample SD `(ddof=1)`, show how their distributions differ for small samples, and illustrate how these differences shrink as sample size increases. Additional histograms of sample means and raw values highlight how averaging reduces variability.
-
-*Problem 3* t-Tests
-
-*Problem 4* ANOVA
-
 
 
 ## Get Started
@@ -86,6 +66,29 @@ Before exiting your Codespace, ensure all your changes are committed and pushed 
 You can stop a Codespace by going to your GitHub account, navigating to *Settings > Codespaces*, and selecting the *Stop* option for your active Codespace. This will save your work and stop the environment, and you can resume later.
 
 You can restart your Codespace at any time from the GitHub repository page. Go to the Code button again and select *Reopen in Codespaces*.
+
+
+
+
+Assessment Problems
+---
+*Problem 1 - Extending the Lady Tasting Tea*
+
+> This problem uses simulation to explore hypothesis testing through Fisher’s famous Lady Tasting Tea experiment. By repeatedly shuffling labels and calculating test statistics, we estimate how often results as extreme as the observed outcome occur by chance. This demonstrates the logic behind permutation tests and the interpretation of p-values
+
+*Problem 2 - Normal Distribution*
+
+> This problem investigates the sampling distribution of the standard deviation by drawing repeated samples from a standard normal distribution. We compare the population SD `(ddof=0)` and sample SD `(ddof=1)`, show how their distributions differ for small samples, and illustrate how these differences shrink as sample size increases. Additional histograms of sample means and raw values highlight how averaging reduces variability.
+
+*Problem 3* t-Tests
+
+*Problem 4* ANOVA
+
+
+
+To open my jupyter notebook click [here](https://github.com/mondbr/applied_statistics/blob/main/problems.ipynb)
+
+
 
 
 Tools and Libraries
