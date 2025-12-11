@@ -82,6 +82,8 @@ Assessment Problems
 
 *Problem 3* t-Tests
 
+> The goal of this problem is to examine how the Type II error rate changes as the true difference in means between two populations increases. By repeatedly simulating two samples and applying an independent samples t-test, we estimate how often the test fails to reject the null hypothesis when it is false. This allows us to see how increasing the mean difference improves the test’s ability to detect a real effect.
+
 *Problem 4* ANOVA
 
 
