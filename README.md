@@ -82,7 +82,7 @@ Assessment Problems
 
 *Problem 3* t-Tests
 
-> The goal of this problem is to examine how the Type II error rate changes as the true difference in means between two populations increases. By repeatedly simulating two samples and applying an independent samples t-test, we estimate how often the test fails to reject the null hypothesis when it is false. This allows us to see how increasing the mean difference improves the test’s ability to detect a real effect.
+> The goal of this problem is to examine how the Type II error rate changes as the difference in means between two populations increases. By repeatedly simulating two samples and applying an independent samples t-test, we estimate how often the test fails to reject the null hypothesis when it is false. This allows us to see how increasing the mean difference improves the test’s ability to detect a real effect.
 
 *Problem 4* ANOVA
 
@@ -126,6 +126,7 @@ https://www.w3schools.com/python/numpy/numpy_intro.asp
 https://www.w3schools.com/python/matplotlib_pyplot.asp
 https://www.geeksforgeeks.org/python/scipy-stats/
 https://www.geeksforgeeks.org/data-science/statsmodel-library-tutorial/
+https://seaborn.pydata.org/
 
 
 - Fisher’s Lady Tasting Tea Experiment: <br>
@@ -149,7 +150,7 @@ https://en.wikipedia.org/wiki/Alternative_hypothesis
 - P-value Explanation: <br>
 https://en.wikipedia.org/wiki/P-value
 
-- Statistical Significance <br>
+- Statistical Significance: <br>
 https://en.wikipedia.org/wiki/Statistical_significance
 
 - Statistical Hypothesis Tests: <br>
@@ -161,6 +162,9 @@ https://numpy.org/
 
 - Python `math.comb`: <br>
 https://docs.python.org/3/library/math.html#math.comb
+
+- Python `ttest_ind`: <br>
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.ttest_ind.html#ttest-ind
 
 - Permutations & Combinations: <br>
 https://www.geeksforgeeks.org/maths/permutations-and-combinations/
@@ -208,6 +212,16 @@ https://www.geeksforgeeks.org/machine-learning/bessels-correction/
 - Video Explanation of SD Estimation: <br>
 https://www.youtube.com/watch?v=E3_408q1mjo
 
+- Type I and II errors:<br>
+https://www.scribbr.com/statistics/type-i-and-type-ii-errors/
+
+- Plotting:
+https://seaborn.pydata.org/generated/seaborn.stripplot.html
+https://seaborn.pydata.org/generated/seaborn.boxplot.html
+
+- Student t-test: <br>
+https://en.wikipedia.org/wiki/Student%27s_t-test
+https://www.w3schools.com/statistics/statistics_students_t_distribution.php
 
 
 END
