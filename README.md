@@ -85,6 +85,7 @@ Assessment Problems
 > The goal of this problem is to examine how the Type II error rate changes as the difference in means between two populations increases. By repeatedly simulating two samples and applying an independent samples t-test, we estimate how often the test fails to reject the null hypothesis when it is false. This allows us to see how increasing the mean difference improves the test’s ability to detect a real effect.
 
 *Problem 4* ANOVA
+> The goal of this problem is to compare multiple group means using both pairwise t-tests and a one-way ANOVA, and to understand how their conclusions differ. By applying ANOVA followed by Tukey’s HSD post-hoc test, this problem demonstrates why ANOVA is preferred when comparing more than two groups, as it controls the overall Type I error rate while identifying which specific group means differ.
 
 
 
@@ -99,12 +100,15 @@ Tools and Libraries
 * Python 3.11.10
 * Jupyter Notebook
 * Python NumPy
+* Python `pandas`
 * Python `math`
 * Python `itertools`
 * Python `random`
 * Python `matplotlib`
-* Python `scipy`
-* Python `stat`
+* Python `scipy.stats`
+* Python `statsmodels`
+* Python `seaborn`
+
 
 
 
@@ -157,8 +161,9 @@ https://en.wikipedia.org/wiki/Statistical_significance
 https://en.wikipedia.org/wiki/Statistical_hypothesis_test
 
 
-- NumPy Documentation Home: <br>
+- NumPy Documentation: <br>
 https://numpy.org/
+https://www.w3schools.com/python/numpy/numpy_intro.asp)
 
 - Python `math.comb`: <br>
 https://docs.python.org/3/library/math.html#math.comb
@@ -192,7 +197,6 @@ https://docs.python.org/3/tutorial/inputoutput.html
 https://numpy.org/doc/stable/reference/random/generated/numpy.random.normal.html
 https://en.wikipedia.org/wiki/Normal_distribution
 https://www.w3schools.com/statistics/statistics_standard_normal_distribution.php
-https://en.wikipedia.org/wiki/Normal_distribution
 
 - NumPy Mean: <br>
 https://numpy.org/devdocs//reference/generated/numpy.mean.html
@@ -214,6 +218,7 @@ https://www.youtube.com/watch?v=E3_408q1mjo
 
 - Type I and II errors:<br>
 https://www.scribbr.com/statistics/type-i-and-type-ii-errors/
+https://www.geeksforgeeks.org/data-science/type-i-and-type-ii-errors/
 
 - Plotting:
 https://seaborn.pydata.org/generated/seaborn.stripplot.html
@@ -223,6 +228,13 @@ https://seaborn.pydata.org/generated/seaborn.boxplot.html
 https://en.wikipedia.org/wiki/Student%27s_t-test
 https://www.w3schools.com/statistics/statistics_students_t_distribution.php
 
+- ANOVA: <br>
+https://www.geeksforgeeks.org/python/how-to-perform-a-one-way-anova-in-python/
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.f_oneway.html
+https://www.geeksforgeeks.org/machine-learning/f-test
+
+- Tukey's HSD Test: <br>
+https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.tukey_hsd.html
 
 END
 ---
