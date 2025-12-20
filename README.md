@@ -80,13 +80,17 @@ Assessment Problems
 
 > This problem investigates the sampling distribution of the standard deviation by drawing repeated samples from a standard normal distribution. We compare the population SD `(ddof=0)` and sample SD `(ddof=1)`, show how their distributions differ for small samples, and illustrate how these differences shrink as sample size increases. Additional histograms of sample means and raw values highlight how averaging reduces variability.
 
-*Problem 3* t-Tests
+*Problem 3* - t-Tests
 
 > The goal of this problem is to examine how the Type II error rate changes as the difference in means between two populations increases. By repeatedly simulating two samples and applying an independent samples t-test, we estimate how often the test fails to reject the null hypothesis when it is false. This allows us to see how increasing the mean difference improves the test’s ability to detect a real effect.
 
-*Problem 4* ANOVA
+*Problem 4* - ANOVA
 > The goal of this problem is to compare multiple group means using both pairwise t-tests and a one-way ANOVA, and to understand how their conclusions differ. By applying ANOVA followed by Tukey’s HSD post-hoc test, this problem demonstrates why ANOVA is preferred when comparing more than two groups, as it controls the overall Type I error rate while identifying which specific group means differ.
 
+
+Usage
+---
+Clone the repository and open the Jupyter notebook to explore the solutions.
 
 
 To open my jupyter notebook click [here](https://github.com/mondbr/applied_statistics/blob/main/problems.ipynb)
@@ -163,7 +167,7 @@ https://en.wikipedia.org/wiki/Statistical_hypothesis_test
 
 - NumPy Documentation: <br>
 https://numpy.org/
-https://www.w3schools.com/python/numpy/numpy_intro.asp)
+https://www.w3schools.com/python/numpy/numpy_intro.asp
 
 - Python `math.comb`: <br>
 https://docs.python.org/3/library/math.html#math.comb
@@ -235,6 +239,12 @@ https://www.geeksforgeeks.org/machine-learning/f-test
 
 - Tukey's HSD Test: <br>
 https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.tukey_hsd.html
+
+
+## Technologies
+
+* Python 3.11.14
+* VS Code Version: 1.107.1 
 
 END
 ---
