@@ -101,7 +101,7 @@ To open my jupyter notebook click [here](https://github.com/mondbr/applied_stati
 Tools and Libraries
 ---
 
-* Python 3.11.10
+* Python 3.11.14
 * Jupyter Notebook
 * Python NumPy
 * Python `pandas`
